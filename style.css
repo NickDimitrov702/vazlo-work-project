@@ -387,6 +387,10 @@ th {
   background-color: rgba(255, 255, 255, 0.378);
 }
 
+.td:empty {
+  display: none;
+}
+
 /* tr:nth-child(even) {
   background-color: #f2f2f2;
 } */
