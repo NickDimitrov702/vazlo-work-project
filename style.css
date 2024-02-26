@@ -265,6 +265,10 @@ body {
   height: 100%;
 }
 
+.slider-nav label > img[src=""] {
+  display: none;
+}
+
 /* Category style */
 .category-container {
   width: 100%;
@@ -387,7 +391,7 @@ th {
   background-color: rgba(255, 255, 255, 0.378);
 }
 
-.td:empty {
+tr:has(td:first-child:not(:empty) + td:empty) td {
   display: none;
 }
 
