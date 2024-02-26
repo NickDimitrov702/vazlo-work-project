@@ -369,15 +369,15 @@ table {
   justify-content: center;
 }
 
-td:nth-child(1) {
+.td:nth-child(1) {
   color: white;
 }
 
-td:nth-child(2) {
+.td:nth-child(2) {
   color: var(--dark-blue-backgraund);
 }
 
-td,
+.td,
 th {
   border: 1px solid #dddddd;
   text-align: left;
