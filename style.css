@@ -221,6 +221,7 @@ body {
 .slider-nav label img {
   height: 90px;
   width: 90px;
+  border-radius: 50%;
 }
 
 .slider-nav label:hover {
