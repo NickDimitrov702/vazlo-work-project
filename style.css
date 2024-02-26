@@ -264,10 +264,20 @@ body {
 #tab-content2 {
   height: 100%;
 }
+/* 
+.slider-nav label {
+  display: block;
+}
 
-.slider-nav label > img[src=""] {
+.slider-nav  label  img[src=""]  {
+  display: none;
+} */
+
+.slider-nav label:has(img[src=""]){
   display: none;
 }
+
+
 
 /* Category style */
 .category-container {
